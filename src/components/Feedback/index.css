@@ -1,0 +1,70 @@
+/* Write your CSS code here. */
+.bg-container{
+    background:linear-gradient(to right,#ffeeee,#ffebeb,#ffc0bb);
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.feedback-container{
+    background-color: #ffffff;
+    height:300px;
+    width:600px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    font-family: "Roboto";
+    font-size: 24px;
+    color:#0f172a;
+}
+.thankyou-container{
+    background-color: #ffffff;
+    height:200px;
+    width:400px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.emoji-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.emoji-button{
+    background: none;
+    border:0;
+
+}
+.emoji-img{
+    height: 40px;
+    width:40px;
+}
+.emoji-name{
+    font-size: 14px;
+    font-family: "Roboto";
+    color: #1e293b;
+}
+.love-emoji{
+    height:40px;
+    width:40px;
+}
+.thankyou-heading{
+    font-family: "Roboto";
+    font-size: 24px;
+    color: #0f172a;
+}
+.desc{
+    font-size: 18px;
+    font-family: "Roboto";
+    color: #1e293b;
+
+}
